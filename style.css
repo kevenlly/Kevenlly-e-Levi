@@ -73,3 +73,13 @@ h1 {
   animation: flutuar 8s linear infinite;
   z-index: 9999;
 }
+
+
+.imagem-galeria {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagem-galeria:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
